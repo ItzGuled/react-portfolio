@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: rgb(116, 116, 206); 
+  text-decoration: none;
+}
+
+.guled-pic {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
+}
+.nav {
+  text-decoration: none;
+
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+  justify-content: space-around;
+}
