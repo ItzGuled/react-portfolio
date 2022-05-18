@@ -3,7 +3,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React, { useState, useEffect } from 'react';
 import Nav from './components/Nav'
-// import Gallery from './components/Portfolio'
+import Portfolio from './components/Portfolio'
 import About from './components/About'
 import Header from './components/Header'
 // import Footer from './components/Footer'
@@ -41,7 +41,7 @@ function App() {
       </Nav>
       <Header />
 {option === 'About' && (<About />)}
-{/* {option === 'Portfolio' && (<Portfolio />)} */}
+{option === 'Portfolio' && (<Portfolio />)}
 {option === 'Contact' && (<Contact />)} 
 {/* {option === 'Resume' && (<Resume />)} */}
 {/* {/* <Footer /> */}

@@ -58,4 +58,23 @@ h1 {
   font-size: 2rem;
   padding: 20px 20px;
 }
+input {
+  font-size: 3rem;
+  border-radius: 4px;
+  
+}
 
+form {
+  width: 40%;
+  
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+}
+
+label {
+  font-size: 1.5rem;
+   display: block;
+}
