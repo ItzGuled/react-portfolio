@@ -3,7 +3,7 @@ import image from "../../assets/guled.JPG";
 
 function About() {
   return (
-    <div>
+    <div className = "about-me">
       <h3>About Me</h3>
       <div>
       <img src={image} alt="profile" className = "guled-pic"

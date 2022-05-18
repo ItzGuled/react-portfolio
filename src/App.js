@@ -8,7 +8,7 @@ import About from './components/About'
 import Header from './components/Header'
 // import Footer from './components/Footer'
 // import Resume from './components/Resume'
-// import Contact from './components/Contact'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -41,10 +41,10 @@ function App() {
       </Nav>
       <Header />
 {option === 'About' && (<About />)}
-{/* {option === 'Portfolio' && (<Portfolio />)}
-{option === 'Contact Me' && (<Contact />)} */}
+{/* {option === 'Portfolio' && (<Portfolio />)} */}
+{option === 'Contact' && (<Contact />)} 
 {/* {option === 'Resume' && (<Resume />)} */}
-{/* <Footer /> */}
+{/* {/* <Footer /> */}
 </>
 );
 }
