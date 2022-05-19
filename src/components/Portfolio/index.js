@@ -5,7 +5,7 @@ function Portfolio() {
   const projects = [
     {
       name: "Gameporium",
-      description: "A gaming website.",
+      description: "A gaming blog to discuss and review games.",
       github: "https://github.com/ItzGuled/Gameporium",
       link: "https://morning-lowlands-91275.herokuapp.com/",
       img: "game"
@@ -35,7 +35,7 @@ function Portfolio() {
 
   return (
     <section>
-      <h3>Portfolio</h3>
+
       <div>
         {projects.map((project, i) => (
           <Project

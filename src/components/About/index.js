@@ -3,12 +3,10 @@ import image from "../../assets/guled.JPG";
 
 function About() {
   return (
-    <div className = "about-me">
-      <h3>About Me</h3>
+    <div className="about-me">
       <div>
-      <img src={image} alt="profile" className = "guled-pic"
-      ></img>
-        <h4>Guleds Bio</h4>
+        <img src={image} alt="profile" className="guled-pic"></img>
+        <h2>Guleds Bio</h2>
       </div>
       <div>
         <p>I am a fullstack developer who has a wide </p>

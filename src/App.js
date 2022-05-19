@@ -26,17 +26,17 @@ function App() {
   });
 
   return (
-    <>
+    <div>
+      <Header />
       <Nav navOption={navOption} option={option} setOption={setOption}>
         option={option}
       </Nav>
-      <Header />
       {option === "About" && <About />}
       {option === "Portfolio" && <Portfolio />}
       {option === "Contact" && <Contact />}
       {/* {option === 'Resume' && (<Resume />)} */}
       <Footer />
-    </>
+    </div>
   );
 }
 
