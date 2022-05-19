@@ -60,7 +60,6 @@ body {
   margin-top: 20px;
 }
 
-
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -110,10 +109,14 @@ h3 {
 input {
   font-size: 2rem;
   border-radius: 4px;
+  width: 500px;
 }
 
-form {
-  width: 40%;
+.form-look {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 textarea {
@@ -145,7 +148,7 @@ button:hover {
 .icon {
   width: 65px;
   margin: 80px;
-  display:inline;
+  display: inline;
 }
 
 .icon:hover {
@@ -165,15 +168,15 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-.proj h3{
-text-align: center;
-margin-bottom: 50px;
-margin-top: 50px;
+.proj h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-.proj h2{
+.proj h2 {
   margin-top: 50px;
-  }
+}
 
 .proj-img {
   height: 0%;
@@ -187,10 +190,6 @@ margin-top: 50px;
   border-radius: 20px;
 }
 
-.form-look {
-  margin: 40px;
-}
-
 .hover a:hover {
   background-color: rgb(29, 29, 29);
   color: white;
@@ -198,26 +197,23 @@ margin-top: 50px;
   padding: 10px 10px;
 }
 
-
-
 .hover a:active {
   background-color: rgb(29, 29, 29);
   color: white;
   border-radius: 20px;
   padding: 10px 10px;
 }
- 
+
 @media screen and (max-width: 738px) {
- .icon{ width: 80px;
-  margin: 40px;
- }
+  .icon {
+    width: 80px;
+    margin: 40px;
+  }
 }
 
 @media screen and (max-width: 485px) {
-  .icon{ width: 60px;
-   margin: 40px;
+  .icon {
+    width: 60px;
+    margin: 40px;
   }
- }
- 
-
-
+}
