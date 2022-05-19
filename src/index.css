@@ -205,3 +205,11 @@ footer {
  }
 }
 
+@media screen and (max-width: 485px) {
+  .icon{ width: 60px;
+   margin: 40px;
+  }
+ }
+ 
+
+
