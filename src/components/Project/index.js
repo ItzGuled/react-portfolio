@@ -4,12 +4,12 @@ function Project(props) {
   const { name, img, github, link, index } = props;
 
   return (
-    <div className="projects">
+    <div>
       <h4>{`${name}`}</h4>
       <img
         src={require(`../../assets/screenshots/${img}.PNG`)}
         alt={name}
-        className="project-img"
+        className=""
         href={link}
         key={index}
       />
