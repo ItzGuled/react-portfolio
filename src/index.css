@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  background-color: rgb(231,231,231);
+  background-color: rgb(231, 231, 231);
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ body {
   width: 400px;
   justify-content: center;
   margin: auto;
-  border-radius: 90px;
+  border-radius: 100px;
   margin-top: 30px;
 }
 
@@ -37,7 +37,6 @@ body {
   height: 180px;
   background-image: url("../src/assets/nyc.jpg");
   background-position: 70px;
- 
 }
 .guled-name h1 {
   color: white;
@@ -49,6 +48,13 @@ body {
   text-align: center;
 }
 
+.about-me p {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 40px;
+}
+
 .nav {
   text-decoration: none;
 }
@@ -58,8 +64,18 @@ body {
   flex-wrap: wrap;
 }
 
-a {
+.port-buttons a {
   margin-left: 30px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+}
+.port-buttons a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-top: 20px;
 }
 
 p {
@@ -109,11 +125,26 @@ label {
 
 button {
   border-radius: 4px;
+  padding: 20px 30px;
+  font-size: 14x;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-top: 20px;
 }
 
 .icon {
   width: 50px;
-  margin: 100px;
+  margin: 80px;
+}
+
+.icon:hover {
+  opacity: 0.1;
 }
 
 footer {
@@ -135,7 +166,6 @@ footer {
   width: 50%;
   border-width: 3px;
   border-style: solid;
-  border-color: var(--primary-color);
   margin: 20px;
   min-width: 300px;
   max-width: 300px;
@@ -146,4 +176,18 @@ footer {
 
 .form-look {
   margin: 40px;
+}
+
+.hover a:hover {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.hover a:active {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 10px;
 }

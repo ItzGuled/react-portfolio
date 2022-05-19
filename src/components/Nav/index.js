@@ -5,7 +5,7 @@ function Nav(props) {
   const { option, setOption, navOption } = props;
 
   return (
-    <nav>
+    <nav className="hover">
       <ul className="flex">
         <li>
           <a

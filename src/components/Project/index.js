@@ -14,7 +14,7 @@ function Project(props) {
         key={index}
       />
       <h3>{`${description}`}</h3>
-      <div>
+      <div className="port-buttons">
         <a href={link}>link</a>
         <a href={github}>GitHub</a>
       </div>
