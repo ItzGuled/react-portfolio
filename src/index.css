@@ -38,7 +38,7 @@ body {
 }
 
 .about-me {
-
+  text-align: center;
 }
 
 .nav {
@@ -52,6 +52,11 @@ body {
 
 a {
   margin-left: 30px;
+}
+
+p {
+  font-size: 1.3rem;
+  margin: 20px;
 }
 
 ul {
@@ -132,5 +137,5 @@ footer {
 }
 
 .form-look {
-  margin: 40px
+  margin: 40px;
 }
