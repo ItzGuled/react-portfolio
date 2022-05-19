@@ -1,7 +1,7 @@
 import React from "react";
 
 function Project(props) {
-  const { name, img, github, link, index } = props;
+  const { name, description, img, github, link, index } = props;
 
   return (
     <div>
@@ -13,6 +13,7 @@ function Project(props) {
         href={link}
         key={index}
       />
+      <h3>{`${description}`}</h3>
       <div>
         <a href={link}>link</a>
         <a href={github}>GitHub</a>

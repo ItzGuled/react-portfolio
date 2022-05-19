@@ -11,7 +11,7 @@ function About() {
         <h4>Guleds Bio</h4>
       </div>
       <div>
-        <p>My name is Guled Osman</p>
+        <p>I am a fullstack developer who has a wide </p>
       </div>
     </div>
   );

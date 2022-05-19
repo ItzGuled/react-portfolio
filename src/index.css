@@ -13,7 +13,7 @@ body {
   border: none;
   box-sizing: border-box;
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", Monaco;
 }
 
@@ -59,22 +59,29 @@ h1 {
   padding: 20px 20px;
 }
 input {
-  font-size: 3rem;
+  font-size: 2rem;
   border-radius: 4px;
-  
+
 }
 
 form {
   width: 40%;
-  
+
 }
 
 textarea {
   width: 500px;
   height: 100px;
+
+  font-size: 1rem
 }
 
 label {
   font-size: 1.5rem;
    display: block;
+}
+
+button {
+  border-radius: 4px;
+
 }
