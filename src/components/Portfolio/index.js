@@ -19,14 +19,14 @@ function Portfolio() {
     },
     {
       name: "Tech Blog",
-      description: "Tech blog website to interact with a communty about tech.",
+      description: "Tech blog website to interact with others.",
       github: "https://github.com/ItzGuled/tech-blog",
       link: "https://damp-inlet-92456.herokuapp.com",
       img: "tech"
     },
     {
       name: "Weather Dashboard",
-      description: "A weather app that will let you know the weather in any city.",
+      description: "A weather app.",
       github: "https://github.com/ItzGuled/weather-dashboard",
       link: "https://itzguled.github.io/weather-dashboard/",
       img: "weather"
@@ -36,7 +36,7 @@ function Portfolio() {
   return (
     <section>
 
-      <div>
+      <div className='projectsDiv'>
         {projects.map((project, i) => (
           <Project
             name={project.name}

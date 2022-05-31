@@ -5,7 +5,6 @@ function Project(props) {
 
   return (
     <div className="proj">
-      <h2>{`${name}`}</h2>
       <img
         src={require(`../../assets/screenshots/${img}.PNG`)}
         alt={name}
@@ -13,10 +12,11 @@ function Project(props) {
         href={link}
         key={index}
       />
-      <h3>{`${description}`}</h3>
       <div className="port-buttons">
-        <a href={link}>link</a>
-        <a href={github}>GitHub</a>
+        <h2>{`${name}`}</h2>
+        <p>{`${description}`}</p>
+        <a target="_blank" href={link} rel="noreferrer">link</a>
+        <a target="_blank" href={github} rel="noreferrer">GitHub</a>
       </div>
     </div>
   );
