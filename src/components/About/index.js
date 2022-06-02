@@ -11,16 +11,16 @@ function About() {
           className="title"
           steps={[
             "MongoDB",
-            3000,
+            2000,
             "Express",
-            3000,
+            2000,
             "React",
-            3000,
+            2000,
             "Node",
-            3000,
+            2000,
           ]}
           loop={Infinity}
-          wrapper="h2"
+          wrapper="p"
         />
       </div>
       <div className="borderp">

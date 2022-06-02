@@ -4,6 +4,13 @@ import Project from "../Project";
 function Portfolio() {
   const projects = [
     {
+      name: "Perspective News",
+      description: "A news app that lets you save your news",
+      github: "https://github.com/ItzGuled/perspective-news",
+      link: "https://perspective-news.herokuapp.com/",
+      img: "perspective"
+    },
+    {
       name: "Gameporium",
       description: "A gaming blog to discuss and review games.",
       github: "https://github.com/ItzGuled/Gameporium",
@@ -26,11 +33,12 @@ function Portfolio() {
     },
     {
       name: "Weather Dashboard",
-      description: "A weather app.",
+      description: "A weather app that gives temp based on city",
       github: "https://github.com/ItzGuled/weather-dashboard",
       link: "https://itzguled.github.io/weather-dashboard/",
       img: "weather"
     },
+    
   ];
 
   return (

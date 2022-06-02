@@ -8,13 +8,13 @@ const Footer = () => {
     <footer className="d-flex flex-wrap justify-content-center">
      
 <div className="col-md-4 justify-content-center  d-flex">
-          <a href="https://github.com/ItzGuled">
+          <a target="_blank" href="https://github.com/ItzGuled">
           <img src={github} alt="profile" className="icon"></img>
           </a>
           <a href="mailto:ItzGuled55337@gmail.com">
           <img src={email} alt="profile" className="icon"></img>
           </a>
-          <a href="https://www.linkedin.com/in/guled-osman-5683aa154/">
+          <a target="_blank" href="https://www.linkedin.com/in/guled-osman-5683aa154/">
           <img src={linkedin} alt="profile" className="icon"></img>
           </a>
           </div>

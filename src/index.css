@@ -43,7 +43,7 @@ body {
   right: 0;
   left: 0;
   top: 0;
-  color:white
+  color: white;
 }
 
 .hover {
@@ -57,12 +57,12 @@ body {
 }
 
 .title {
-  color:rgb(29, 29, 29);
-  font-size: 3rem;
+  color: rgb(29, 29, 29);
+  font-size: 2.2rem;
   height: 20px;
   padding: 50px;
   border: none;
-  margin-top: -40px
+  margin-top: -40px;
 }
 
 .about-me {
@@ -181,9 +181,12 @@ footer {
   width: 45%;
   /* height: 40vh; */
   position: relative;
-  margin: 20px auto;
-  text-align: left;
-  margin-top:60px
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  max-width: 600px;
+  min-width: 400px;
 }
 
 .proj h2 {
@@ -192,7 +195,7 @@ footer {
   color: white;
   padding: 5px;
   margin: 5px 0;
-  box-shadow: 5px 5px 5px lightgray;
+  box-shadow: 1px 1px 1px lightgray;
 }
 
 .proj p {
@@ -206,23 +209,21 @@ footer {
   width: 80%;
   height: 350px;
   border-width: 3px;
-  border-style: solid;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .port-buttons {
   background: black;
   color: white;
   position: absolute;
-  bottom: 8%;
-  left: 5%;
+  bottom: 6%;
+  left: 4%;
   width: 60%;
   height: 170px;
   padding: 10px;
-  border: 2px solid black;
-  border-radius: 8px;
+  border-radius: 10px;
   opacity: 0.85;
-  box-shadow: 5px 5px 5px lightgray;
+  box-shadow: 1px 1px 1px lightgray;
 }
 
 .port-buttons a {
@@ -232,7 +233,7 @@ footer {
   font-size: 1.1rem;
   padding: 10px;
   margin-right: 30px;
-  box-shadow: 3px 3px 3px lightgray;
+  box-shadow: 1px 1px 1px lightgray;
 }
 .port-buttons a:hover {
   background-color: rgb(255, 255, 255);
@@ -254,30 +255,31 @@ footer {
   padding: 10px 10px;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 1400px) {
   .projectsDiv {
-    width: 75%;
+    width: 45%;
     margin: auto;
-    margin-top: 30px
   }
   .proj {
-    width: 100%;
+    width: 90%;
     margin: 10px auto;
+    margin-top: 70px;
   }
 
   .proj img {
     width: 100%;
   }
   .icon {
-    width: 80px;
+    width: 60px;
     margin: 40px;
   }
 }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 738px) {
   .projectsDiv {
-    width: 95%;
+    width: 75%;
     margin: auto;
+    margin-top: 30px;
   }
   .proj {
     width: 100%;
@@ -290,5 +292,17 @@ footer {
   .icon {
     width: 60px;
     margin: 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .icon {
+    width: 40px;
+  }
+  .about-me {
+    padding: 20px;
+  }
+  .guled-pic {
+    width: 100%;
   }
 }

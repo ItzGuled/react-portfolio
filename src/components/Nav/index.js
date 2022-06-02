@@ -14,7 +14,6 @@ function Nav(props) {
             id="about"
             className={option === "About" ?? "nav-link active"}
           >
-            {" "}
             About
           </a>
         </li>
@@ -39,14 +38,16 @@ function Nav(props) {
           </a>
         </li>
         <li>
-          <a
-            href="#resume"
-            onClick={() => setOption("Resume")}
-            id="contact"
-            className={option === "Resume" ?? "nav-link active"}
-          >
-            Resume
-          </a>
+          <div>
+            <a
+              className="nav-link active"
+              href="https://drive.google.com/file/d/1a1AUCPGSNIBTaGQD87YsCGRfx8FYURHdnC6yMsdZLCk/view"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </div>
         </li>
       </ul>
     </nav>
