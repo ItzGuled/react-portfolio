@@ -11,7 +11,6 @@ function Nav(props) {
           <a
             href="#about"
             onClick={() => setOption("About")}
-            id="about"
             className={option === "About" ?? "nav-link active"}
           >
             About
@@ -21,7 +20,7 @@ function Nav(props) {
           <a
             href="#portfolio"
             onClick={() => setOption("Portfolio")}
-            id="work"
+           
             className={option === "Work" ?? "nav-link active"}
           >
             Portfolio
@@ -31,7 +30,6 @@ function Nav(props) {
           <a
             href="#contact"
             onClick={() => setOption("Contact")}
-            id="contact"
             className={option === "Contact" ?? "nav-link active"}
           >
             Contact Me
@@ -41,7 +39,7 @@ function Nav(props) {
           <div>
             <a
               className="nav-link active"
-              href="https://drive.google.com/file/d/1a1AUCPGSNIBTaGQD87YsCGRfx8FYURHdnC6yMsdZLCk/view"
+              href="https://drive.google.com/file/d/1H-cdwzBWSFzE3QXpAoHC3eQvkKrynbMM0AlXu1_ckK8/view"
               target="_blank"
               rel="noreferrer"
             >

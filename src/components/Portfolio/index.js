@@ -5,10 +5,17 @@ function Portfolio() {
   const projects = [
     {
       name: "Perspective News",
-      description: "A news app that lets you save your news",
+      description: "A news app that lets you save your news.",
       github: "https://github.com/ItzGuled/perspective-news",
       link: "https://perspective-news.herokuapp.com/",
       img: "perspective"
+    },
+    {
+      name: "Password Generator",
+      description: "A quick and easy to use password generator to meet your needs.",
+      github: "https://github.com/ItzGuled/quick-password-generator",
+      link: "https://itzguled.github.io/quick-password-generator/",
+      img: "pass"
     },
     {
       name: "Gameporium",
@@ -18,32 +25,32 @@ function Portfolio() {
       img: "game"
     },
     {
-      name: "Photo Port",
-      description: "An art gallery that uses React.",
-      github: "https://github.com/ItzGuled/photo-port",
-      link: "https://itzguled.github.io/photo-port/",
-      img: "port"
+      name: "Pizza Hunt",
+      description: "Create your own delicious pizza with numerous options to choose from.",
+      github: "https://github.com/ItzGuled/pizza-hunt",
+      link: "https://fierce-falls-54250.herokuapp.com/",
+      img: "pizza"
     },
     {
       name: "Tech Blog",
-      description: "Tech blog website to interact with others.",
+      description: "Tech blog website to interact with others on all things tech.",
       github: "https://github.com/ItzGuled/tech-blog",
       link: "https://damp-inlet-92456.herokuapp.com",
       img: "tech"
     },
     {
-      name: "Weather Dashboard",
-      description: "A weather app that gives temp based on city",
-      github: "https://github.com/ItzGuled/weather-dashboard",
-      link: "https://itzguled.github.io/weather-dashboard/",
-      img: "weather"
+      name: "Work Day Scheduler",
+      description: "A scheduler to plan you day at work with ease of use.",
+      github: "https://github.com/ItzGuled/work-day-scheduler",
+      link: "https://itzguled.github.io/work-day-scheduler/",
+      img: "work"
     },
     
   ];
 
   return (
     <section>
-
+     <h1 className="Projh">Featured Projects</h1>
       <div className='projectsDiv'>
         {projects.map((project, i) => (
           <Project
