@@ -11,7 +11,7 @@ const Footer = () => {
           <a target="_blank" href="https://github.com/ItzGuled">
           <img src={github} alt="profile" className="icon"></img>
           </a>
-          <a href="mailto:ItzGuled55337@gmail.com">
+          <a href="mailto:guledlosman@gmail.com">
           <img src={email} alt="profile" className="icon"></img>
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/guled-osman-5683aa154/">

@@ -9,7 +9,8 @@ Portfolio of my featured projects
 
 - [Usage](#usage)
 - [License](#license)
-- [Contributions](#contributions)
+- [Technologies](#technologies)
+- [Credits](#credits)
 - [Questions](#questions)
 
 ## Usage
@@ -20,7 +21,7 @@ Click "About" to view a brief description of me. Click "Portfolio" to view my fe
 
 This project is licensed under the MIT license.
 
-![MIT Badge](https://img.shields.io/npm/l/f)
+<a href=./LICENSE>![License](https://img.shields.io/badge/License%3A-MIT-green.svg)</a>  
 
 ## Technologies
 

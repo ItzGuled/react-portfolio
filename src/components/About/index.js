@@ -25,7 +25,7 @@ function About() {
       </div>
       <div className="borderp">
         <p>
-          I am a Full Stack developer with a background in sales, customer service, and banking. I earned my certification in Full Stack Web Development from the University of Minnesota. I really enjoy all
+          Full Stack developer with a background in sales, customer service, and banking. I earned my certification in Full Stack Web Development from the University of Minnesota. I really enjoy all
           aspects of tech and its implementation within our society. I'm very
           passionate about learning new skills and applying them in a team
           setting with creative problem solving. I work with the MERN stack and leverage my work experience to provide clients the best product.

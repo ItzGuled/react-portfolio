@@ -49,6 +49,7 @@ body {
 .hover {
   padding-top: 167px;
 }
+
 .guled-name h1 {
   color: white;
   font-size: 3rem;
@@ -184,19 +185,19 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 40px;
 }
 
 .proj {
   width: 45%;
-  /* height: 40vh; */
   position: relative;
   margin: auto;
   text-align: left;
-  margin-top: 10px;
   display: flex;
   max-width: 600px;
   min-width: 400px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .proj h2 {
@@ -294,6 +295,12 @@ footer {
   }
   .port-buttons p {
     font-size: 14px;
+  }
+  .borderp p {
+    font-size:17px;
+  }
+  .flex a {
+    font-size:20px;
   }
 }
 
