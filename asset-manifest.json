@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f0d4ddfd.css",
-    "main.js": "/react-portfolio/static/js/main.be28e345.js",
+    "main.js": "/react-portfolio/static/js/main.62c0b153.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/pizza.PNG": "/react-portfolio/static/media/pizza.860fe08dc417ae274dcc.PNG",
     "static/media/nyc.jpg": "/react-portfolio/static/media/nyc.c37dd7ee0729e15d8e89.jpg",
     "static/media/guled.jpg": "/react-portfolio/static/media/guled.5f260bc8c9e4ed588518.jpg",
     "static/media/perspective.PNG": "/react-portfolio/static/media/perspective.c3924ea9a85c3543725b.PNG",
     "static/media/screenshot.PNG": "/react-portfolio/static/media/screenshot.7b12dd66a15e6c6e0509.PNG",
+    "static/media/deep.PNG": "/react-portfolio/static/media/deep.e931ce00d90b21225101.PNG",
     "static/media/progressive.PNG": "/react-portfolio/static/media/progressive.57db6a625aff7d671c4c.PNG",
     "static/media/work.PNG": "/react-portfolio/static/media/work.c00fd4c95d02bb2516ff.PNG",
     "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.ab7644f18965cdeea483.png",
@@ -15,11 +16,11 @@
     "static/media/tech.PNG": "/react-portfolio/static/media/tech.de39f2a92a1f084597d9.PNG",
     "index.html": "/react-portfolio/index.html",
     "main.f0d4ddfd.css.map": "/react-portfolio/static/css/main.f0d4ddfd.css.map",
-    "main.be28e345.js.map": "/react-portfolio/static/js/main.be28e345.js.map",
+    "main.62c0b153.js.map": "/react-portfolio/static/js/main.62c0b153.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0d4ddfd.css",
-    "static/js/main.be28e345.js"
+    "static/js/main.62c0b153.js"
   ]
 }
