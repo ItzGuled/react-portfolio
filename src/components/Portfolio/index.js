@@ -11,11 +11,11 @@ function Portfolio() {
       img: "deep"
     },
     {
-      name: "Perspective News",
-      description: "A news app that lets you save your news.",
-      github: "https://github.com/ItzGuled/perspective-news",
-      link: "https://perspective-news.herokuapp.com/",
-      img: "perspective"
+      name: "Weather Dashboard",
+      description: "Weather app that provides current and future forecast in cities.",
+      github: "https://github.com/ItzGuled/weather-dashboard",
+      link: "https://itzguled.github.io/weather-dashboard/",
+      img: "weather"
     },
     {
       name: "PWA Budget Tracker",
